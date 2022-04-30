@@ -1,12 +1,21 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 :root{
     --cor0: #888890;
     --cor1: #59BAC3;
     --cor2: #025C5D;
     --cor3: #594736;
     --cor4: #A68776;
+
+    --font-texto: 'Roboto', 'sans-serif';
+    --font-titulo: 'Dancing Script', 'cursive';
+
 }
+
+
 
 *{
     margin: 0px;
