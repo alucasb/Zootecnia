@@ -13,6 +13,12 @@
     --font-titulo: 'Josefin Sans', sans-serif;;
 
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 header{
     background-color: var(--cor4);
     padding: 20px;
@@ -36,6 +42,26 @@ body{
     background-color: var(--cor0);
     font-family: var(--font-texto);
 }
+
+h1.ttabela{
+    text-align: center;   
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.tabela{
+    text-align: center;
+}
+.tabela ul{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.tabela li{
+    padding: 5px;
+}
+li.ultimo{
+    padding-bottom: 15px;
+}
 main{
     background-color: white;
     padding: 20px;
@@ -55,11 +81,12 @@ main{
 main h2{
     font-family: var(--font-titulo);
     font-size: 1.5em;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 main h3{
     font-family: var(--font-titulo);
-
+    padding: 10px;
 }
 
 main p{
@@ -73,9 +100,11 @@ main ul{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
-
-*{
-    margin: 0px;
-    padding: 0px;
+p.pos{
+    padding-bottom: 20px;
+}
+img{
+    border: 2px solid black;
+    display: block;
+    margin: auto; 
 }
