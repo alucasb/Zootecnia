@@ -145,6 +145,7 @@ main h2{
 main h3{
     font-family: var(--font-titulo);
     padding: 10px;
+    font-size: 1.35em;
 }
 
 main p{
