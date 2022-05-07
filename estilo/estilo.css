@@ -187,6 +187,10 @@ img{
 img.zoo{
     max-width: 400px;
 }
+img.leite{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 footer{
     background-color: var(--cor3);
